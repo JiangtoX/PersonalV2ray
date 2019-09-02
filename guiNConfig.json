@@ -1,0 +1,75 @@
+{
+  "inbound": [
+    {
+      "localPort": 1080,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "47.75.92.7",
+      "port": 2983,
+      "id": "db2ca9ba-ca3d-11e9-be27-00163e063ca9",
+      "alterId": 32,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "64ms",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "34.80.0.212",
+      "port": 4556,
+      "id": "d93f94d0-aacd-11e9-84af-42010a8c0002",
+      "alterId": 16,
+      "security": "auto",
+      "network": "kcp",
+      "remarks": "",
+      "headerType": "utp",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "223ms",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysAgentEnabled": false,
+  "listenerType": 0,
+  "urlGFWList": "",
+  "allowLANConn": false,
+  "remoteDNS": "",
+  "subItem": [],
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  }
+}

@@ -1,0 +1,49 @@
+--------------------------------info[09:46:10]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[10:32:57]--------------------------------
+System.Exception: Windows shutdown UnsetProxy
+
+ 
+--------------------------------Application_ThreadException[10:32:58]--------------------------------
+System.OverflowException: 算术运算导致溢出。
+   在 v2rayN.HttpProxyHandler.ProxySetting.SetProxy(String strProxy, String exceptions)
+   在 v2rayN.Forms.MainForm.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+ 
+--------------------------------info[10:33:46]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[18:42:28]--------------------------------
+System.Exception: Windows shutdown UnsetProxy
+
+ 
+--------------------------------Application_ThreadException[18:42:28]--------------------------------
+System.OverflowException: 算术运算导致溢出。
+   在 v2rayN.HttpProxyHandler.ProxySetting.SetProxy(String strProxy, String exceptions)
+   在 v2rayN.Forms.MainForm.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+ 
+--------------------------------info[18:43:15]--------------------------------
+System.Exception: v2rayN start up
+
+ 
+--------------------------------info[19:13:53]--------------------------------
+System.Exception: Windows shutdown UnsetProxy
+
+ 
+--------------------------------Application_ThreadException[19:13:54]--------------------------------
+System.OverflowException: 算术运算导致溢出。
+   在 v2rayN.HttpProxyHandler.ProxySetting.SetProxy(String strProxy, String exceptions)
+   在 v2rayN.Forms.MainForm.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+ 
+--------------------------------info[19:14:46]--------------------------------
+System.Exception: v2rayN start up
+
+ 
